@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E87195A15AEAF7500DBB2A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E87195915AEAF7500DBB2A1 /* UIKit.framework */; };
+		0E87195C15AEAF7500DBB2A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E87195B15AEAF7500DBB2A1 /* Foundation.framework */; };
+		0E87195E15AEAF7500DBB2A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E87195D15AEAF7500DBB2A1 /* CoreGraphics.framework */; };
+		0E87196415AEAF7500DBB2A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E87196215AEAF7500DBB2A1 /* InfoPlist.strings */; };
+		0E87196615AEAF7500DBB2A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87196515AEAF7500DBB2A1 /* main.m */; };
+		0E87196A15AEAF7500DBB2A1 /* DatabaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87196915AEAF7500DBB2A1 /* DatabaseAppDelegate.m */; };
+		0E87196D15AEAF7500DBB2A1 /* DatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87196C15AEAF7500DBB2A1 /* DatabaseViewController.m */; };
+		0E87197015AEAF7500DBB2A1 /* DatabaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E87196E15AEAF7500DBB2A1 /* DatabaseViewController.xib */; };
+		0E87198515AEB07100DBB2A1 /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87198415AEB07100DBB2A1 /* DatabaseHelper.m */; };
+		0E87198715AEB19200DBB2A1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E87198615AEB19200DBB2A1 /* CoreData.framework */; };
+		0E87198A15AEB2D200DBB2A1 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E87198815AEB2D200DBB2A1 /* Database.xcdatamodeld */; };
+		0E87198E15AEB49E00DBB2A1 /* DatabaseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87198D15AEB49E00DBB2A1 /* DatabaseAdapter.m */; };
+		0E87199215AEB50600DBB2A1 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87199115AEB50600DBB2A1 /* Result.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E87195515AEAF7500DBB2A1 /* Basic Database Skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic Database Skeleton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E87195915AEAF7500DBB2A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E87195B15AEAF7500DBB2A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E87195D15AEAF7500DBB2A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E87196115AEAF7500DBB2A1 /* Basic Database Skeleton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Basic Database Skeleton-Info.plist"; sourceTree = "<group>"; };
+		0E87196315AEAF7500DBB2A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E87196515AEAF7500DBB2A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E87196715AEAF7500DBB2A1 /* Basic Database Skeleton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basic Database Skeleton-Prefix.pch"; sourceTree = "<group>"; };
+		0E87196815AEAF7500DBB2A1 /* DatabaseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseAppDelegate.h; sourceTree = "<group>"; };
+		0E87196915AEAF7500DBB2A1 /* DatabaseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseAppDelegate.m; sourceTree = "<group>"; };
+		0E87196B15AEAF7500DBB2A1 /* DatabaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseViewController.h; sourceTree = "<group>"; };
+		0E87196C15AEAF7500DBB2A1 /* DatabaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseViewController.m; sourceTree = "<group>"; };
+		0E87196F15AEAF7500DBB2A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DatabaseViewController.xib; sourceTree = "<group>"; };
+		0E87198315AEB07100DBB2A1 /* DatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
+		0E87198415AEB07100DBB2A1 /* DatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
+		0E87198615AEB19200DBB2A1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0E87198915AEB2D200DBB2A1 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		0E87198C15AEB49E00DBB2A1 /* DatabaseAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseAdapter.h; sourceTree = "<group>"; };
+		0E87198D15AEB49E00DBB2A1 /* DatabaseAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseAdapter.m; sourceTree = "<group>"; };
+		0E87199015AEB50600DBB2A1 /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		0E87199115AEB50600DBB2A1 /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E87195215AEAF7500DBB2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E87198715AEB19200DBB2A1 /* CoreData.framework in Frameworks */,
+				0E87195A15AEAF7500DBB2A1 /* UIKit.framework in Frameworks */,
+				0E87195C15AEAF7500DBB2A1 /* Foundation.framework in Frameworks */,
+				0E87195E15AEAF7500DBB2A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E87194A15AEAF7500DBB2A1 = {
+			isa = PBXGroup;
+			children = (
+				0E87195F15AEAF7500DBB2A1 /* Basic Database Skeleton */,
+				0E87195815AEAF7500DBB2A1 /* Frameworks */,
+				0E87195615AEAF7500DBB2A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E87195615AEAF7500DBB2A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E87195515AEAF7500DBB2A1 /* Basic Database Skeleton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E87195815AEAF7500DBB2A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E87198615AEB19200DBB2A1 /* CoreData.framework */,
+				0E87195915AEAF7500DBB2A1 /* UIKit.framework */,
+				0E87195B15AEAF7500DBB2A1 /* Foundation.framework */,
+				0E87195D15AEAF7500DBB2A1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E87195F15AEAF7500DBB2A1 /* Basic Database Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				0E87198F15AEB4F700DBB2A1 /* Result */,
+				0E87198B15AEB47A00DBB2A1 /* Adapter */,
+				0E87197E15AEB03C00DBB2A1 /* Helper */,
+				0E87196815AEAF7500DBB2A1 /* DatabaseAppDelegate.h */,
+				0E87196915AEAF7500DBB2A1 /* DatabaseAppDelegate.m */,
+				0E87196B15AEAF7500DBB2A1 /* DatabaseViewController.h */,
+				0E87196C15AEAF7500DBB2A1 /* DatabaseViewController.m */,
+				0E87196E15AEAF7500DBB2A1 /* DatabaseViewController.xib */,
+				0E87196015AEAF7500DBB2A1 /* Supporting Files */,
+				0E87198815AEB2D200DBB2A1 /* Database.xcdatamodeld */,
+			);
+			path = "Basic Database Skeleton";
+			sourceTree = "<group>";
+		};
+		0E87196015AEAF7500DBB2A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E87196115AEAF7500DBB2A1 /* Basic Database Skeleton-Info.plist */,
+				0E87196215AEAF7500DBB2A1 /* InfoPlist.strings */,
+				0E87196515AEAF7500DBB2A1 /* main.m */,
+				0E87196715AEAF7500DBB2A1 /* Basic Database Skeleton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E87197E15AEB03C00DBB2A1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0E87198315AEB07100DBB2A1 /* DatabaseHelper.h */,
+				0E87198415AEB07100DBB2A1 /* DatabaseHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		0E87198B15AEB47A00DBB2A1 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				0E87198C15AEB49E00DBB2A1 /* DatabaseAdapter.h */,
+				0E87198D15AEB49E00DBB2A1 /* DatabaseAdapter.m */,
+			);
+			name = Adapter;
+			sourceTree = "<group>";
+		};
+		0E87198F15AEB4F700DBB2A1 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				0E87199015AEB50600DBB2A1 /* Result.h */,
+				0E87199115AEB50600DBB2A1 /* Result.m */,
+			);
+			name = Result;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E87195415AEAF7500DBB2A1 /* Basic Database Skeleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E87197315AEAF7500DBB2A1 /* Build configuration list for PBXNativeTarget "Basic Database Skeleton" */;
+			buildPhases = (
+				0E87195115AEAF7500DBB2A1 /* Sources */,
+				0E87195215AEAF7500DBB2A1 /* Frameworks */,
+				0E87195315AEAF7500DBB2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basic Database Skeleton";
+			productName = "Basic Database Skeleton";
+			productReference = 0E87195515AEAF7500DBB2A1 /* Basic Database Skeleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E87194C15AEAF7500DBB2A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Database;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "webonise software solutions pvt ltd";
+			};
+			buildConfigurationList = 0E87194F15AEAF7500DBB2A1 /* Build configuration list for PBXProject "Basic Database Skeleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E87194A15AEAF7500DBB2A1;
+			productRefGroup = 0E87195615AEAF7500DBB2A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E87195415AEAF7500DBB2A1 /* Basic Database Skeleton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E87195315AEAF7500DBB2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E87196415AEAF7500DBB2A1 /* InfoPlist.strings in Resources */,
+				0E87197015AEAF7500DBB2A1 /* DatabaseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E87195115AEAF7500DBB2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E87196615AEAF7500DBB2A1 /* main.m in Sources */,
+				0E87196A15AEAF7500DBB2A1 /* DatabaseAppDelegate.m in Sources */,
+				0E87196D15AEAF7500DBB2A1 /* DatabaseViewController.m in Sources */,
+				0E87198515AEB07100DBB2A1 /* DatabaseHelper.m in Sources */,
+				0E87198A15AEB2D200DBB2A1 /* Database.xcdatamodeld in Sources */,
+				0E87198E15AEB49E00DBB2A1 /* DatabaseAdapter.m in Sources */,
+				0E87199215AEB50600DBB2A1 /* Result.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E87196215AEAF7500DBB2A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E87196315AEAF7500DBB2A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E87196E15AEAF7500DBB2A1 /* DatabaseViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E87196F15AEAF7500DBB2A1 /* en */,
+			);
+			name = DatabaseViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E87197115AEAF7500DBB2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E87197215AEAF7500DBB2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E87197415AEAF7500DBB2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Basic Database Skeleton/Basic Database Skeleton-Prefix.pch";
+				INFOPLIST_FILE = "Basic Database Skeleton/Basic Database Skeleton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E87197515AEAF7500DBB2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Basic Database Skeleton/Basic Database Skeleton-Prefix.pch";
+				INFOPLIST_FILE = "Basic Database Skeleton/Basic Database Skeleton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E87194F15AEAF7500DBB2A1 /* Build configuration list for PBXProject "Basic Database Skeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E87197115AEAF7500DBB2A1 /* Debug */,
+				0E87197215AEAF7500DBB2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E87197315AEAF7500DBB2A1 /* Build configuration list for PBXNativeTarget "Basic Database Skeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E87197415AEAF7500DBB2A1 /* Debug */,
+				0E87197515AEAF7500DBB2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0E87198815AEB2D200DBB2A1 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0E87198915AEB2D200DBB2A1 /* Database.xcdatamodel */,
+			);
+			currentVersion = 0E87198915AEB2D200DBB2A1 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0E87194C15AEAF7500DBB2A1 /* Project object */;
+}
